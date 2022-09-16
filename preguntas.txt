@@ -1,0 +1,28 @@
+
+Pregunta 1: Que ficheros son los mas extendidos a dia de hoy
+A XML
+B BPM
+C JSON
+D A y C son correctas
+Respuesta D
+Pregunta 2: Las bases de datos centralizan la informacion
+A Verdadero 
+B Falso
+Respuesta A
+Pregunta 3:Acerca de los ficheros que informacion es falsa
+A Algunas bases de datos almacenan sus datos utilizando ficheros
+B Los ficheros son muy utiles para guardar mucha informacion
+C Actualmente los ficheros se usan guardando datos siguiendo un patron o estructura bien definida
+D Todas son falsas
+Respuesta B
+Pregunta 4: Una de las ventajas de las bases de datos es
+A Dependencia de datos, es decir una union entre programas y datos
+B Almacenar informacion redundante
+C Globalizar la informacion
+D Todas son falsas
+Respuesta C
+Pregunta 5: Siempre nos hace falta una base de datos para almacenar la informacion
+A Verdadero 
+B Falso 
+Respuesta B
+
