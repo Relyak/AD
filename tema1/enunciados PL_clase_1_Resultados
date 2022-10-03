@@ -1,0 +1,30 @@
+1//
+drop table pedidos_temp cascade constraints;
+create table pedidos_temp (
+	reg varchar2(300)
+);
+DECLARE 
+	v_articulo NUMBER:=&articulo;
+	v_stock number(2);
+	
+BEGIN 
+	select stock into v_stock from articulos where IDART=v_articulo;
+	if (v_stock<=0) then
+	insert into pedidos_temp values('PEDIDO '||v_articulo||' SIN EXISTENCIAS '||sysdate);
+	update articulos
+	set stock=0
+	where IDART=v_articulo; 
+	end if;
+	if (v_stock>0) then
+	insert into pedidos_temp values('PEDIDO '||v_articulo||' VENDIDO '||sysdate);
+	update articulos
+	set stock=(stock-1) 
+	where IDART=v_articulo; 
+	end if;
+	
+END;
+/
+
+2//
+
+
