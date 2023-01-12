@@ -1,0 +1,18 @@
+Create table empleaditos(
+id int(8)primary key  auto_increment ,
+nombre varchar(30),
+apellido varchar(30),
+salario int(6),
+funcion varchar(30)
+);
+
+INSERT INTO empleaditos VALUES(1, 'FRANCIS', 'JAVIEL', 15000, 'DIRECTOR DE ZONA');
+INSERT INTO empleaditos VALUES(2, 'ER', 'CHEMITA', 15000, 'DIRECTOR DE ZONA');
+INSERT INTO empleaditos VALUES(3, 'SERGIO', 'TAP', 12000, 'JEFE DE ZONA');
+INSERT INTO empleaditos VALUES(4, 'GRAN', 'MAGUS', 4000, 'DESARROLLADOR SENIOR');
+INSERT INTO empleaditos VALUES(5, 'JUAN', 'TORRE', 2000, 'DESARROLLADOR JUNIOR');
+INSERT INTO empleaditos VALUES(6, 'OLAF', 'BJORGEN', 3000, 'TICO');
+INSERT INTO empleaditos VALUES(7, 'MENCHU', 'GONZALEZ', 1200, 'LIMPIEZA');
+INSERT INTO empleaditos VALUES(8, 'CESAR', 'DE LA FUENTE', 1200, 'LIMPIEZA');
+INSERT INTO empleaditos VALUES(9, 'MOHAMED', 'ILLAUI', 2000, 'DESARROLLADOR JUNIOR');
+INSERT INTO empleaditos VALUES(10, 'BARTON', 'DU FONTAINE', 2300, 'DESARROLLADOR JUNIOR');
